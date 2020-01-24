@@ -24,7 +24,7 @@ class BasicMovieMaker:
             size1, size2 = (np.random.randint(self.size[0], self.size[1]),
                             np.random.randint(self.size[0], self.size[1]))
 
-            SO = SimpleObject([pos_y, pos_x], (size1, size2), img_shape=self.image_shape,
+            SO = BasicObject([pos_y, pos_x], (size1, size2), img_shape=self.image_shape,
                               speed=obj_speed, direction=np.random.choice([-1, 1], 2))
 
             objects.append(SO)
