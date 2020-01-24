@@ -1,7 +1,7 @@
 import numpy as np
 from skimage import draw
 
-class SimpleObject():
+class BasicObject():
 
     def __init__(self, center, size, speed=2, mutation=1e-5, direction=[1, 1], img_shape=[256, 256]):
         self.center_x = center[0]

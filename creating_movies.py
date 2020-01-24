@@ -1,11 +1,11 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import animation
-from creating_objects import SimpleObject
+from creating_objects import BasicObject
 
-class SimpleMovieMaker:
+class BasicMovieMaker:
 
-    def __init__(self, image_shape=(256, 256), speed=(15, 25), size=(15,25)):
+    def __init__(self, image_shape=(224, 224), speed=(15, 25), size=(15,25)):
         self.image_shape = image_shape
         self.speed = speed
         self.size = size
